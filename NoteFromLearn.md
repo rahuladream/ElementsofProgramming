@@ -30,3 +30,16 @@ students = [[input(), float(input())] for i in range(int(input())]
 Harry
 37.21 like this
 this will print([['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41.0], ['Harsh', 39.0]])
+
+
+- reduce()
+reduce() function applies a function of two arguments cumulatively on a list of objects in succession from left to right to reduce it to on values.
+lets say have a list [1,2,3] and you have to find sum.
+reduce(lambda x,y: x+y, [1,2,3])
+
+- Fraction()
+fraction() always return fraction part of the numerator & denominator
+from fractions import Fraction as F
+F(10,20)
+return 
+(1,2)
