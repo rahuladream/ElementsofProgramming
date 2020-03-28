@@ -43,3 +43,7 @@ from fractions import Fraction as F
 F(10,20)
 return 
 (1,2)
+
+
+- to convert in binary number
+bin(number), oct(number), hex(number)
