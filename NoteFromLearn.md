@@ -47,3 +47,7 @@ return
 
 - to convert in binary number
 bin(number), oct(number), hex(number)
+
+
+- to a to z character remember
+a is 97 in 123 is the end
