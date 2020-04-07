@@ -13,5 +13,5 @@ class Solution:
 if __name__ == "__main__":
     in_ = ["eat", "tea", "tan", "ate", "nat", "bat"]
     res = Solution()
-    print(res.groupAnagrams(in_))
+    print(res.groupAnagrams2(in_))
         
