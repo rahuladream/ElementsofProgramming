@@ -51,3 +51,7 @@ bin(number), oct(number), hex(number)
 
 - to a to z character remember
 a is 97 in 123 is the end
+
+
+
+Binary search is best when searching is middle or first or last
