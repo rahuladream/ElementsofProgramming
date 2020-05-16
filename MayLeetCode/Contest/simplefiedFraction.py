@@ -1,16 +1,12 @@
-from fractions import Fraction
+import math
 class Solution:
     def simplifiedFractions(self, n):
         res = []
-        deno = [c for c in range(2, n)]
-        nemo = [n for n in range(1, n)]
-        if n == 1:
-            return []
-        else:
-            for c in deno:
-                
+        for i in range(1, n+1):
+            for j in range(1, n+1):
+                if i < j and math.gcd(i, j) == 1:
+                    res.append("{}/{}".format(i, j))
         return res
-
 
 
 
