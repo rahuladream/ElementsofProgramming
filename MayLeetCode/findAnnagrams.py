@@ -7,7 +7,7 @@ class Solution:
         p = Counter(p)
         ans = []
         windos = None
-        for i in range(0, n, m+1):
+        for i in range(0, n-m+1):
             if i == 0:
                 windos = Counter(s[:m])
             else:
