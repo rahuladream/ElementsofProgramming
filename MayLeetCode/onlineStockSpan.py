@@ -1,5 +1,5 @@
 class StockSpanner:
-    
+    """ this part should be fixed """
     def __init__(self):
         self.monotone_stack = []
               
