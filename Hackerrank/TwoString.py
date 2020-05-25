@@ -1,12 +1,10 @@
-
-
-num = int(input())
-
-for i in range(num):
-    s1 = input()
-    s2 = input()
-    
-    if tuple(s1) in tuple(s2):
-        print(True)
+a = int(input())
+for i in range(a):
+    i = (input())
+    j = (input())
+    setx = set([a for a in i])
+    sety = set([y for y in j])
+    if setx.intersection(sety) == set():
+        print("NO")
     else:
-        print(False)
+        print("YES")
